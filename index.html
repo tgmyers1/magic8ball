@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="displayQuestion" class="questionField" style="display: none;">
+    </div>
+    <form name="magic8ball">
+        <div class="questionField">
+            <label for="question">Ask me anything!</label>
+            <input id="question" type="text" name="question" required>
+        </div>
+        <div class="submitButton">
+            <input id="ask" type="submit" name="ask" value="Ask">
+        </div>
+    </form>
+    <div id="answers">
+        <img id="imageid" src="./img/magic8ball_start.png" alt="an image of an empty magic 8 ball">
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
