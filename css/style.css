@@ -1,0 +1,38 @@
+body {
+    background-image: url(../img/Stars.png);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+    font-size: xxx-large;
+}
+
+.questionField {
+    height: 50px;
+    text-align: center;
+    margin-top: 2.5%;
+    font-size: x-large;
+    color: blue;
+}
+
+.submitButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    color: blue;
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+    font-size: x-large;
+    border-style: outset;
+    border-color: antiquewhite;
+}
+
+.answersImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

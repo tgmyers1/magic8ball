@@ -3,6 +3,10 @@ const form = document.forms.magic8ball;
 function ask(event) {
     event.preventDefault();
     form.style.display = 'none';
+    let displayQuestion = document.getElementById('displayQuestion');
+    const newEl = document.createElement('p');
+    displayQuestion.appendChild(newEl).innerText = document.getElementById('question').value;
+    displayQuestion.style.display = 'block';
     let answerNum = Math.floor((Math.random() * 20) + 1);
     console.log(answerNum);
     let answers = document.getElementById('imageid');
